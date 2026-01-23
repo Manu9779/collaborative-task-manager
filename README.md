@@ -21,6 +21,14 @@ A modern, full-stack task management application built with the **MERN Stack** (
     -   **Status & Priority**: Track tasks with status (Pending, In Progress, Completed) and priority levels (Low, Medium, High).
     -   **Responsive Grid Layout**: 3D cards automatically adjust for mobile, tablet, and desktop screens.
 
+## 🌐 Live Demo
+
+🚀 **Deployed Application:**  
+👉 https://collabartive-task-manager.vercel.app/
+
+> The application is deployed on **Vercel** and fully functional with authentication, role-based access, and task management features.
+
+
 ## 🛠️ Tech Stack
 
 ### Frontend
