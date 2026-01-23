@@ -57,6 +57,14 @@ A modern, full-stack task management application built with the **MERN Stack** (
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Deployed Application:**  
+👉 https://collabartive-task-manager.vercel.app/
+
+> The application is deployed on **Vercel** and fully functional with authentication, role-based access, and task management features.
+
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -86,7 +94,15 @@ A modern, full-stack task management application built with the **MERN Stack** (
 * MongoDB (local or MongoDB Atlas)
 * Git
 
+<<<<<<< HEAD
 ---
+=======
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Manu9779/Task_manager.git
+    cd "Collaborative  Task Manager"
+    ```
+>>>>>>> 88ae3d04622c0147fe4803a1bb82895c4767b650
 
 ## ⚙️ Installation
 
@@ -182,6 +198,7 @@ Contributions are welcome!
 
 ---
 
+<<<<<<< HEAD
 ## 📄 License
 
 This project is licensed under the **MIT License**.
@@ -189,3 +206,5 @@ This project is licensed under the **MIT License**.
 ---
 
 ### ⭐ If you like this project, give it
+=======
+>>>>>>> 88ae3d04622c0147fe4803a1bb82895c4767b650
