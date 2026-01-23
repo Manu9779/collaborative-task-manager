@@ -49,7 +49,7 @@ A modern, full-stack task management application built with the **MERN Stack** (
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Manu9779/task-manager.git
+    git clone https://github.com/Manu9779/Task_manager.git
     cd "Collaborative  Task Manager"
     ```
 
@@ -112,6 +112,3 @@ Collaborative Task Manager/
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
