@@ -1,117 +1,191 @@
 # Collaborative Task Manager
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge\&logo=vercel)](https://collabartive-task-manager.vercel.app/)
+
 A modern, full-stack task management application built with the **MERN Stack** (MongoDB, Express, React, Node.js) and redesigned with **Aceternity UI** for a premium, animated user experience.
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Deployed Application:**
+👉 [https://collabartive-task-manager.vercel.app/](https://collabartive-task-manager.vercel.app/)
+
+> The application is deployed on **Vercel** and demonstrates authentication, role-based access, and collaborative task management features.
+
+---
 
 ## ✨ Features
 
--   **Premium UI/UX**:
-    -   **Dynamic Backgrounds**: Aurora effects on auth pages and organic Wavy Backgrounds on the dashboard.
-    -   **Aceternity Components**: 3D Task Cards, Floating Navbar, Animated Buttons (`MovingBorder`), and Glow Inputs.
-    -   **Dark/Light Mode**: Fully integrated theme switching with persistent state and specific styling for both modes.
-    -   **Modern Typography**: Uses the **Inter** font family for a clean, professional look.
+### 🎨 Premium UI/UX
 
--   **Robust Authentication**:
-    -   Secure User Signup & Login (JWT-based).
-    -   Role-Based Access Control (**RBAC**): Separate permissions for 'User' and 'Manager' roles.
-    -   Protected Routes: Ensures unauthorized users cannot access sensitive pages.
+* Dynamic backgrounds with **Aurora effects** on authentication pages
+* **Wavy animated dashboard background** for an organic feel
+* **Aceternity UI components**:
 
--   **Task Management**:
-    -   **CRUD Operations**: Create, Read, Update, and Delete tasks.
-    -   **Task Assignment**: Managers can assign tasks to specific users.
-    -   **Status & Priority**: Track tasks with status (Pending, In Progress, Completed) and priority levels (Low, Medium, High).
-    -   **Responsive Grid Layout**: 3D cards automatically adjust for mobile, tablet, and desktop screens.
+  * 3D Task Cards
+  * Floating Navbar
+  * Animated Buttons (`MovingBorder`)
+  * Glow Input Fields
+* **Dark / Light Mode** with persistent theme state
+* **Modern Typography** using the **Inter** font family
+
+### 🔐 Robust Authentication
+
+* Secure **User Signup & Login** using JWT
+* **Role-Based Access Control (RBAC)**:
+
+  * User
+  * Manager
+* Protected Routes to prevent unauthorized access
+
+### ✅ Task Management
+
+* Full **CRUD operations** (Create, Read, Update, Delete)
+* **Task Assignment** by Managers
+* Task **Status Tracking**:
+
+  * Pending
+  * In Progress
+  * Completed
+* Task **Priority Levels**:
+
+  * Low
+  * Medium
+  * High
+* Fully **responsive grid layout** for all screen sizes
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
--   **React** (Vite)
--   **Tailwind CSS v4** (latest CSS-first configuration)
--   **Framer Motion** (for complex animations)
--   **Aceternity UI** (specialized animated components)
--   **Lucide React** (icons)
--   **Axios** (API requests)
+
+* **React (Vite)**
+* **Tailwind CSS v4** (CSS-first configuration)
+* **Framer Motion** (animations)
+* **Aceternity UI** (advanced animated components)
+* **Lucide React** (icons)
+* **Axios** (API communication)
 
 ### Backend
--   **Node.js** & **Express.js**
--   **MongoDB** & **Mongoose** (Database & ODM)
--   **bcryptjs** (Password hashing)
--   **jsonwebtoken** (JWT Auth)
--   **express-rate-limit** (API security)
+
+* **Node.js** & **Express.js**
+* **MongoDB** & **Mongoose**
+* **bcryptjs** (password hashing)
+* **jsonwebtoken** (JWT authentication)
+* **express-rate-limit** (API protection)
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
--   Node.js (v14+ recommended)
--   MongoDB (Local instance or Atlas connection string)
--   Git
 
-### Installation
+* Node.js (v14+ recommended)
+* MongoDB (local or MongoDB Atlas)
+* Git
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/Abhilash777gowda/collabartive-task-manager.git
-    cd "Collaborative  Task Manager"
-    ```
+---
 
-2.  **Setup Backend:**
-    ```bash
-    cd backend
-    npm install
-    ```
-    Create a `.env` file in the `backend` directory:
-    ```env
-    PORT=5000
-    MONGO_URI=mongodb://localhost:27017/collab-task-manager
-    JWT_SECRET=your_super_secret_key_here
-    NODE_ENV=development
-    ```
-    Start the server:
-    ```bash
-    node server.js
-    ```
+## ⚙️ Installation
 
-3.  **Setup Frontend:**
-    Open a new terminal and navigate to the frontend folder:
-    ```bash
-    cd frontend
-    npm install
-    ```
-    Start the development server:
-    ```bash
-    npm run dev
-    ```
+### 1️⃣ Clone the Repository
 
-4.  **Access the App:**
-    Open your browser and visit `http://localhost:5173`.
+```bash
+git clone https://github.com/Manu9779/Task_manager.git
+cd "Collaborative Task Manager"
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file inside the `backend` folder:
+
+```env
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/collab-task-manager
+JWT_SECRET=your_super_secret_key_here
+NODE_ENV=development
+```
+
+Start the backend server:
+
+```bash
+node server.js
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+Open a new terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+### 4️⃣ Access the Application
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
 
 ## 📂 Project Structure
 
 ```
 Collaborative Task Manager/
-├── backend/                # Node.js/Express Server
-│   ├── config/             # DB Connection
-│   ├── controllers/        # Route Logic
-│   ├── middleware/         # Auth & Sentinel
-│   ├── models/             # Mongoose Schemas
-│   ├── routes/             # API Routes
-│   └── server.js           # Entry Point
+├── backend/
+│   ├── config/             # Database connection
+│   ├── controllers/        # Business logic
+│   ├── middleware/         # Authentication & RBAC
+│   ├── models/             # Mongoose schemas
+│   ├── routes/             # API routes
+│   └── server.js           # Server entry point
 │
-├── frontend/               # React Client
+├── frontend/
 │   ├── src/
-│   │   ├── components/     # UI Components (TaskCard, Navbar, etc.)
-│   │   │   └── ui/         # Aceternity Shaders & Effects
-│   │   ├── context/        # AuthContext
-│   │   ├── pages/          # Login, Signup, Dashboard, TaskManager
-│   │   └── api.js          # Axios Setup
-│   └── index.css           # Tailwind v4 Imports & Theme
+│   │   ├── components/     # UI components
+│   │   │   └── ui/         # Aceternity UI effects
+│   │   ├── context/        # Auth context
+│   │   ├── pages/          # App pages
+│   │   └── api.js          # Axios configuration
+│   └── index.css           # Tailwind v4 styles
 │
 └── README.md
 ```
 
+---
+
 ## 🤝 Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Submit a pull request
+
+---
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the **MIT License**.
+
+---
+
+### ⭐ If you like this project, give it
