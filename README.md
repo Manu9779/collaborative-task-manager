@@ -49,7 +49,7 @@ A modern, full-stack task management application built with the **MERN Stack** (
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/Abhilash777gowda/collabartive-task-manager.git
+    git clone https://github.com/Manu9779/task-manager.git
     cd "Collaborative  Task Manager"
     ```
 
