@@ -204,7 +204,6 @@ Contributions are welcome!
 This project is licensed under the **MIT License**.
 
 ---
-
 ### ⭐ If you like this project, give it
 =======
 >>>>>>> 88ae3d04622c0147fe4803a1bb82895c4767b650
