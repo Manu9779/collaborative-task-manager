@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Collaborative Task Manager
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge\&logo=vercel)](https://collabartive-task-manager.vercel.app/)
@@ -207,3 +208,6 @@ This project is licensed under the **MIT License**.
 ### ⭐ If you like this project, give it
 =======
 >>>>>>> 88ae3d04622c0147fe4803a1bb82895c4767b650
+=======
+# collaborative-task-manager
+>>>>>>> 72acedb0093c35f5b6c02dc73cb45cfbd50c95f9
