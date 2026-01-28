@@ -1,3 +1,8 @@
+## Screenshots
+
+### Home
+![Home Page](screenshots/home.png)
+
 # Collaborative Task Manager
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge\&logo=vercel)](https://collabartive-task-manager.vercel.app/)
