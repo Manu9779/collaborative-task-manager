@@ -3,6 +3,21 @@
 ### Home
 ![Home Page](screenshots/home.png)
 
+### Login
+![Login Page](screenshots/login.png)
+
+### Register
+![Register Page](screenshots/register.png)
+
+### Dashboard (User)
+![User Dashboard](screenshots/user-dashboard.png)
+
+### Dashboard (Manager)
+![Manager Dashboard](screenshots/manager-dashboard.png)
+
+### Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
 # Collaborative Task Manager
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge\&logo=vercel)](https://collabartive-task-manager.vercel.app/)
